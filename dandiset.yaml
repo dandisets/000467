@@ -7,30 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 147042970944
-  numberOfFiles: 1629
-  numberOfSubjects: 2
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_2015173
-    name: Ooceraea biroi - Clonal raider ant
-    schemaKey: SpeciesType
-  variableMeasured:
-  - OpticalChannel
-  - ImagingPlane
-  - TwoPhotonSeries
 citation: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm
   behavior (2023). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -51,7 +30,7 @@ contributor:
   - dcite:Conceptualization
   schemaKey: Person
 dateCreated: '2023-03-27T19:57:24.404459+00:00'
-datePublished: '2023-06-26T17:13:29.398430+00:00'
+datePublished: '2023-06-26T21:01:40.495887+00:00'
 description: 'In these experiments, we recorded odor-evoked calcium responses in the
   antennal lobe of the clonal raider ant (Ooceraea biroi). Transgenic ants expressed
   GCaMP6s in olfactory sensory neurons, and the right antennal lobe was imaged using
@@ -75,13 +54,13 @@ manifestLocation:
 name: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm behavior
 protocol: []
 publishedBy:
-  endDate: '2023-06-26T17:13:29.398430+00:00'
-  id: urn:uuid:a8bf8d83-a04a-4953-bb87-0181ebf80533
+  endDate: '2023-06-26T21:01:40.495887+00:00'
+  id: urn:uuid:341ad575-b664-4f23-8a80-5fc52b324c53
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-06-26T17:13:29.398430+00:00'
+  startDate: '2023-06-26T21:01:40.495887+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:80c54766-9225-4f48-91d4-9751de8ff220
+  - id: urn:uuid:4e03d15a-d4ba-4fee-8021-1a27293ebb6c
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
