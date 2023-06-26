@@ -7,32 +7,11 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1262490250560
-  numberOfFiles: 14685
-  numberOfSubjects: 5
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_2015173
-    name: Ooceraea biroi - Clonal raider ant
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ImagingPlane
-  - OpticalChannel
-  - TwoPhotonSeries
 citation: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm
-  behavior (2023). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000467/draft
+  behavior (2023). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 R01 NS 123899-02
   name: National Institutes of Health (NIH)
@@ -51,6 +30,7 @@ contributor:
   - dcite:Conceptualization
   schemaKey: Person
 dateCreated: '2023-03-27T19:57:24.404459+00:00'
+datePublished: '2023-06-26T17:13:29.398430+00:00'
 description: 'In these experiments, we recorded odor-evoked calcium responses in the
   antennal lobe of the clonal raider ant (Ooceraea biroi). Transgenic ants expressed
   GCaMP6s in olfactory sensory neurons, and the right antennal lobe was imaged using
@@ -60,6 +40,7 @@ description: 'In these experiments, we recorded odor-evoked calcium responses in
   commenced after 3s and lasted for 5s. Negative control: paraffin oil. General odorant
   stimuli: isopropanol, ethylpyrazine, ethanol, 3-hexanone, propionic acid. Ant alarm
   pheromones: 4-methyl-3-heptanone, 4-methyl-3-heptanol, 4-methyl-3-hexanol, 6-methyl-5-hepten-2-one.'
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000467/draft
 identifier: DANDI:000467
@@ -72,6 +53,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000467/versions/draft/assets/
 name: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm behavior
 protocol: []
+publishedBy:
+  endDate: '2023-06-26T17:13:29.398430+00:00'
+  id: urn:uuid:a8bf8d83-a04a-4953-bb87-0181ebf80533
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-06-26T17:13:29.398430+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:80c54766-9225-4f48-91d4-9751de8ff220
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
