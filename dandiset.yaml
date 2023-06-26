@@ -7,9 +7,30 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 60026029056
+  numberOfFiles: 656
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_2015173
+    name: Ooceraea biroi - Clonal raider ant
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OpticalChannel
+  - ImagingPlane
+  - TwoPhotonSeries
 citation: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm
   behavior (2023). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
