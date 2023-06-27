@@ -19,9 +19,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 958026844800
-  numberOfFiles: 11130
-  numberOfSubjects: 17
+  numberOfBytes: 1047831051648
+  numberOfFiles: 12198
+  numberOfSubjects: 18
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_2015173
@@ -51,7 +51,7 @@ contributor:
   - dcite:Conceptualization
   schemaKey: Person
 dateCreated: '2023-03-27T19:57:24.404459+00:00'
-datePublished: '2023-06-27T04:15:38.334276+00:00'
+datePublished: '2023-06-27T05:28:41.779397+00:00'
 description: 'In these experiments, we recorded odor-evoked calcium responses in the
   antennal lobe of the clonal raider ant (Ooceraea biroi). Transgenic ants expressed
   GCaMP6s in olfactory sensory neurons, and the right antennal lobe was imaged using
@@ -75,13 +75,13 @@ manifestLocation:
 name: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm behavior
 protocol: []
 publishedBy:
-  endDate: '2023-06-27T04:15:38.334276+00:00'
-  id: urn:uuid:eea675d7-3970-4ccb-9420-02c2952dec4a
+  endDate: '2023-06-27T05:28:41.779397+00:00'
+  id: urn:uuid:63d4684a-b8f8-4f81-9126-20789673b246
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-06-27T04:15:38.334276+00:00'
+  startDate: '2023-06-27T05:28:41.779397+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:abd5049e-c6d6-43a8-8c0a-7aef64333cc0
+  - id: urn:uuid:48395ec1-94fc-4607-af91-c306c77b7c73
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
