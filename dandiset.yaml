@@ -32,7 +32,7 @@ assetsSummary:
   - ImagingPlane
   - TwoPhotonSeries
 citation: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm
-  behavior (2023). (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  behavior (2023). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000467/draft
 contributor:
 - awardNumber: 1 R01 NS 123899-02
   name: National Institutes of Health (NIH)
@@ -51,7 +51,6 @@ contributor:
   - dcite:Conceptualization
   schemaKey: Person
 dateCreated: '2023-03-27T19:57:24.404459+00:00'
-datePublished: '2023-06-27T07:51:48.423700+00:00'
 description: 'In these experiments, we recorded odor-evoked calcium responses in the
   antennal lobe of the clonal raider ant (Ooceraea biroi). Transgenic ants expressed
   GCaMP6s in olfactory sensory neurons, and the right antennal lobe was imaged using
@@ -60,8 +59,62 @@ description: 'In these experiments, we recorded odor-evoked calcium responses in
   33 z-planes were imaged at 5 micrometer intervals. In each recording, odor stimulus
   commenced after 3s and lasted for 5s. Negative control: paraffin oil. General odorant
   stimuli: isopropanol, ethylpyrazine, ethanol, 3-hexanone, propionic acid. Ant alarm
-  pheromones: 4-methyl-3-heptanone, 4-methyl-3-heptanol, 4-methyl-3-hexanol, 6-methyl-5-hepten-2-one.'
-doi: 10.80507/dandi.123456/0.123456.1234
+  pheromones: 4-methyl-3-heptanone, 4-methyl-3-heptanol, 4-methyl-3-hexanol, 6-methyl-5-hepten-2-one.
+
+
+  Experiment key:
+
+  General odorant experiment subjects:
+
+  sub-ant1-m10-d6-y2022
+
+  sub-ant3-m10-d6-y2022
+
+  sub-ant1-m10-d11-y2022
+
+  sub-ant2-m10-d11-y2022
+
+  sub-ant3-m10-d11-y2022
+
+  sub-ant5-m10-d11-y2022
+
+
+  Bilateral antennal lobe imaging experiment subjects:
+
+  sub-ant2-m2-d10-y2023
+
+  sub-ant3-m2-d10-y2023
+
+  sub-ant4-m2-d10-y2023
+
+
+  Unilateral alarm pheromone imaging experiment subjects:
+
+  sub-ant2-m4-d20-y2022
+
+  sub-ant4-m4-d20-y2022
+
+  sub-ant1-m4-d21-y2022
+
+  sub-ant2-m4-d21-y2022
+
+  sub-ant3-m4-d21-y2022
+
+  sub-ant1-m4-d26-y2022
+
+  sub-ant2-m4-d26-y2022
+
+  sub-ant3-m4-d26-y2022
+
+  sub-ant4-m4-d26-y2022
+
+  sub-ant5-m4-d26-y2022
+
+  sub-ant1-m4-d27-y2022
+
+  sub-ant2-m4-d27-y2022
+
+  sub-ant3-m4-d27-y2022'
 ethicsApproval: []
 id: DANDI:000467/draft
 identifier: DANDI:000467
@@ -74,19 +127,8 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000467/versions/draft/assets/
 name: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm behavior
 protocol: []
-publishedBy:
-  endDate: '2023-06-27T07:51:48.423700+00:00'
-  id: urn:uuid:f0ff5257-19c4-4b9a-a3cd-440fe47fb0e8
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-06-27T07:51:48.423700+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:65789d8f-dea6-4d1d-aeae-09eb9309aea5
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
-relatedResource: []
+relatedResource:
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
@@ -94,4 +136,5 @@ studyTarget:
 - Odor and alarm pheromone representation in antennal lobe of the clonal raider ant
 url: https://dandiarchive.org/dandiset/000467/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- {}
