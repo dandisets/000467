@@ -44,7 +44,7 @@ assetsSummary:
 citation: Frank, Dominic D.; Lopes, Lindsey E.; Olivos-Cisneros, Leonora; Lacy, Kip
   D.; Trible, Waring; Ritger, Amelia L.; Valdés-Rodríguez, Stephany; Kronauer, Daniel
   J. C. (2026) Sparse and stereotyped encoding implicates a core glomerulus for ant
-  alarm behavior (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000467/draft
+  alarm behavior (Version 0.261004.1655) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000467/0.261004.1655
 contributor:
 - affiliation:
   - name: 'Laboratory of Social Evolution and Behavior, The Rockefeller University,
@@ -204,6 +204,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-03-27T19:57:24.404459+00:00'
+datePublished: '2026-10-04T16:55:21.434815+00:00'
 description: "In these experiments, we recorded odor-evoked calcium responses in the
   antennal lobe of the clonal raider ant (Ooceraea biroi). Transgenic ants expressed
   GCaMP6s in olfactory sensory neurons, and the right antennal lobe was imaged using
@@ -221,8 +222,9 @@ description: "In these experiments, we recorded odor-evoked calcium responses in
   sub-ant1-m4-d21-y2022\nsub-ant2-m4-d21-y2022\nsub-ant3-m4-d21-y2022\nsub-ant1-m4-d26-y2022\n\
   sub-ant2-m4-d26-y2022\nsub-ant3-m4-d26-y2022\nsub-ant4-m4-d26-y2022\nsub-ant5-m4-d26-y2022\n\
   sub-ant1-m4-d27-y2022\nsub-ant2-m4-d27-y2022\nsub-ant3-m4-d27-y2022"
+doi: 10.48324/dandi.000467/0.261004.1655
 ethicsApproval: []
-id: DANDI:000467/draft
+id: DANDI:000467/0.261004.1655
 identifier: DANDI:000467
 keywords:
 - antennal lobe; calcium imaging; chemosensation; clonal raider ant; communication;
@@ -230,9 +232,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000467/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000467/0.261004.1655/assets.yaml
 name: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm behavior
 protocol: []
+publishedBy:
+  endDate: '2026-10-04T16:55:21.434815+00:00'
+  id: urn:uuid:674b542c-707d-4b30-97d9-c2a84a592129
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-04T16:55:21.434815+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:e79972e2-4c6f-41e3-b7e1-d9607ee1992a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Sparse and stereotyped encoding implicates a core glomerulus for ant alarm
     behavior
@@ -241,11 +255,12 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1016/j.cell.2023.05.025
+releaseNotes: Published after adding additional meta data.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget:
 - Odor and alarm pheromone representation in antennal lobe of the clonal raider ant
-url: https://dandiarchive.org/dandiset/000467/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000467/0.261004.1655
+version: 0.261004.1655
 wasGeneratedBy: []
